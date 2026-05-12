@@ -2,7 +2,7 @@ name: ActBlue Daily Sync
 
 on:
   schedule:
-    # Runs every day at 6:00 AM UTC (adjust to your timezone)
+    # Runs every day at 8:00 AM UTC (adjust to your timezone)
     - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
